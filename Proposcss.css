@@ -1,0 +1,265 @@
+.{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #dc9933;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+}
+.Logo{
+
+	position: absolute;
+	top: 2vh;
+	left: 45vw;
+	max-width: 85px;
+}
+
+.navbar{
+	position: absolute;
+	background-image: url("Fc7.png");
+	width: 43vw;
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 8px;
+	left: 62vw;
+}
+
+.aa:hover{
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.aaa{
+	color: white;	
+}
+
+
+.aligement1{
+
+	top: 20vh !important;
+	left: 4vw;
+	position: absolute;
+
+}
+
+
+
+
+.aligement2{
+
+	top: 20vh;
+	left: 70vw;
+	position: absolute;
+}
+
+ h1{
+
+	text-shadow: -1px 0 white,0 1px white ,1px 0 white;
+     font-size: 4vh;
+
+
+
+}
+
+p{
+	color:#515B42;
+}
+
+
+
+   .aligement2  p{
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+    }
+
+
+
+
+    .aligement2  input, textarea{
+
+        width: 90%;
+        margin-bottom: 2px;
+    }
+
+    .aligement2   input[ type="text"]{
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 24px;
+        color: #fff;
+        font-size: 16px;
+
+    }
+
+
+
+    .aligement2 input[ type="submit"]
+    {
+
+        border: none;
+        outline: none;
+        height: 40px;
+        background: white;
+        color: #515B42;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+  
+  .aligement2 input[ type="submit"]:hover
+    {
+        cursor: pointer;
+        background: white;
+
+        color: #dc9933;
+    }
+
+
+
+
+
+    .aligement2  textarea{
+
+        width:100%;
+         border-radius:10px;  
+         border-color: #21618C; 
+          border-width:2px;
+
+        margin-bottom: 30px;
+
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 48px;
+        color: #fff;
+        font-size: 16px;
+
+    }
+
+
+    @media screen and (max-width: 1000px){
+
+      
+     
+       .Logo{
+
+	position: absolute;
+	top: 1.5vh !important;
+	left: 30vw !important;
+	height: 20vh !important;
+	width: 20vw !important;
+}
+
+
+.aligement1{
+	position: absolute;
+	left: 2vw !important;
+}
+
+
+.aligement2{
+	position: absolute;
+	left: 53vw !important;
+}
+
+.aligement2  input{
+
+        width: 70%;
+        margin-bottom: 10px;
+    }
+
+
+        .aligement2  textarea{
+
+        width:70%;
+         border-radius:10px;  
+         border-color: #21618C; 
+          border-width:2px;
+
+        margin-bottom: 30px;
+
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        outline: none;
+        height: 48px;
+        color: #fff;
+        font-size: 16px;
+
+    }
+
+    h1{
+
+	text-shadow: -1px 0 #515B42,0 1px #515B42 ,1px 0 #515B42;
+     font-size: 3vh;
+     color: white !important;
+
+
+}
+
+
+
+
+
+				.navbar{
+					position:fixed;
+					background: none !important;
+					background-color: white;
+					max-width: 40vw;
+					font-size: 8px;
+					left: 56.8vw !important;
+
+				}
+
+
+
+
+				.aa:hover{
+					color:#dc9933;
+					width: 20vw !important;
+					background-position: center!important;
+					background: none !important;
+					background-color: #515B42 !important;
+				}
+
+
+
+				.navbar-toggler-icon{
+					color: white !important;
+
+
+				}
+
+				.navbar span {
+					color: white !important;
+					border: white !important;
+					background-color:#515B42 !important;
+				}
+
+
+					.navbar span:hover{
+					color: white !important;
+					border: white !important;
+					background-color:white !important;
+
+
+				
+
+				}
+
+
+
+
+    }
+
+
+

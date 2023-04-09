@@ -1,0 +1,133 @@
+.{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #dc9933;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+}
+.Logo{
+
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	max-width: 85px;
+}
+.verticalc{
+		border-left: 2px solid white; 
+		height: 100vh; 
+		display: inline-block;
+		position:absolute;
+		left: 50vw;
+
+}
+.verticalg{
+		border-left: 2px solid white; 
+		height: 100vh; 
+		display: inline-block;
+		position:absolute;
+		left: 25vw;
+
+}
+.verticald{
+		border-left: 2px solid white; 
+		height: 100vh; 
+		display: inline-block;
+		position:absolute;
+		left: 75vw;
+
+}
+
+.navbar{
+	position:fixed;
+	background-image: url("Fc7.png");
+	width: 50vw !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 8px;
+	left: 62vw;
+	
+}
+
+
+@media screen and (max-width: 600px){
+
+				.navbar{
+					position:fixed;
+					background: none !important;
+					background-color: white;
+					max-width: 40vw;
+					font-size: 8px;
+					left: 56.8vw !important;
+
+				}
+
+
+
+
+				.aa:hover{
+					color:#dc9933;
+					width: 20vw !important;
+					background-position: center!important;
+					background: none !important;
+					background-color: #515B42 !important;
+				}
+
+
+
+				.navbar-toggler-icon{
+					color: white !important;
+
+
+				}
+
+				.navbar span {
+					color: white !important;
+					border: white !important;
+					background-color:#515B42 !important;
+				}
+
+
+					.navbar span:hover{
+					color: white !important;
+					border: white !important;
+					background-color:white !important;
+
+
+				
+
+				}
+
+
+
+
+
+}
+
+.aa:hover{
+	color:#dc9933;
+	background-color: inherit;
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: contain;
+	height: 300%;
+	width: 100%;
+	max-height: 180%;
+	
+
+}
+
+.aaa{
+	color: white;	
+	border: white!important;
+}
+.navbar button{
+	color: white;!important;
+}

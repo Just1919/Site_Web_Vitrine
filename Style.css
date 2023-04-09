@@ -1,0 +1,412 @@
+.{
+
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	
+}
+
+
+.owl-carousel{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+
+}
+
+/************ Les points**********/
+.owl-dots{
+	position: absolute;
+	top: 35vh;
+	left:7.2vw;
+	width: 30px;
+}
+
+
+.owl-prev{
+	position: absolute;
+	top: 27vh;
+	left: 7.8vw;
+	transform: rotate(-270deg);
+
+}
+
+.owl-next{
+	position: absolute;
+	top: 54vh;
+	left:7.8vw;
+	transform: rotate(-270deg);
+}
+
+.owl-prev span{
+	font-size: 35px;
+}
+.owl-next span{
+	font-size: 35px;
+}
+
+
+.owl-next:hover{
+	background: none !important;
+	color: black !important;
+}
+
+.owl-next span:hover{
+	font-size: 45px;
+}
+
+.owl-prev:hover{
+	background: none !important;
+	color: black !important;
+}
+
+.owl-prev span:hover{
+	font-size: 45px;
+}
+
+
+.owl-dot{
+   
+	  height: 20px !important;
+    width: 20px !important;
+    background: #dc9933!important;
+    -ms-transform: rotate(45deg) !important; /* Internet Explorer */
+    -moz-transform: rotate(45deg) !important; /* Firefox */
+    -webkit-transform: rotate(45deg) !important; /* Safari et Chrome */
+    -o-transform: rotate(45deg) !important; /* Opera */
+   margin-top: 6px !important;
+      margin-bottom: 6px !important;
+}
+
+.owl-dot span{
+	background:#dc9933 !important;
+}
+
+.owl-dots .active{
+      margin-top: 6px !important;
+      margin-bottom: 6px !important;
+	  height: 30px !important;
+    width: 30px !important;
+    background: #515B42!important;
+    -ms-transform: rotate(45deg) !important; /* Internet Explorer */
+    -moz-transform: rotate(45deg) !important; /* Firefox */
+    -webkit-transform: rotate(45deg) !important; /* Safari et Chrome */
+    -o-transform: rotate(45deg) !important; /* Opera */
+
+}
+
+.owl-dots .active span{
+	background:#515B42 !important;
+}
+
+
+
+
+
+.owl-carousel  .owl-item{
+	height: 100vh;
+	width: 100vw;
+
+}
+
+.owl-carousel  img{
+	height: 100vh;
+	width: 100vw;
+
+}
+
+
+.Logo img{
+	max-height: 15vh;
+	max-width: 8vw;
+}
+
+
+.Logo{
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+
+	.Logo img{
+	max-height: 12vh;
+	max-width: 15vw;
+}
+
+.Logo{
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+}
+
+
+}
+
+
+
+
+
+
+
+/*********** accueilcentre******************************/
+
+.Acc{
+   height: 50vh ;
+   width: 29vw;
+	position: absolute;
+	left: 37vw;
+	top: 7vh !important;
+}
+.Acc img{
+	max-height: 75vh;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+	.Acc{
+	height: 20vh;
+	width: 33vw;
+	position: absolute;
+	left: 30vw !important;
+	top: 29vh !important;
+}
+.Acc img{
+	max-height:34vh !important;
+}
+
+
+/***********Le texte*********/
+
+	
+}
+
+
+
+.ptext{
+	position: absolute;
+   left:36vw;
+   top: 27vh;
+}
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+						.ptext{
+							font-size: 0.6rem;
+						position: absolute;
+					   left:43vw;
+					   top: 10vh !important;
+					}
+
+
+					.ptext a{
+					     font-size: 0.7rem;
+						background: #515B42;
+						border: none;
+						border-radius: 19vh;
+						width: 19vw !important;
+					}
+
+
+
+
+					.btn-group{
+						border: none;
+						top: 20vh !important;
+					   left: 0.9vw !important;
+
+					}
+
+
+
+					.sect{
+						position: absolute;
+						height: 25% !important;
+						width: 23% !important;
+						top: 49vh !important;
+						left: 34vw;
+
+					}
+
+						
+}
+
+
+.ptext a{
+
+	background: #515B42;
+	border: none;
+	border-radius: 22px;
+	width: 12vw;
+}
+
+.ptext a:hover{
+	color:#515B42;;
+	background:white ;
+}
+
+
+
+.ptext p{
+   color: white;
+}
+
+
+.ptext p:hover{
+	color:black;
+
+
+}
+
+
+.ptext a:active{
+	color:#515B42;
+	background:white ;
+	border: red;
+}
+
+.ptext a:focus{
+	color:#515B42;;
+	background:white ;
+}
+
+.btn-group{
+	border: none;
+	top: 22vh;
+	right: -10vw;
+
+}
+ 
+ .btn-group img{
+ 	border: none;
+ 	height: 50% !important;
+ 	width: 45% !important;
+ }
+
+.btn-group button{
+	background: none !important;
+	border: none !important;
+}
+
+.sect{
+	position: absolute;
+	height: 25% !important;
+	width: 23% !important;
+	top: 66vh;
+	left: 34vw;
+
+}
+
+
+
+/****  Barre de menu****/
+
+.navbar{
+	position:fixed;
+	background-image: url("Fc7.png");
+	width: 50vw !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 8px;
+	left: 60vw;
+	
+}
+
+
+@media screen and (max-width: 600px){
+
+				.navbar{
+					position:fixed;
+					background: none !important;
+					background-color: white;
+					max-width: 40vw;
+					font-size: 8px;
+					left: 56.8vw !important;
+
+				}
+
+
+
+
+				.aa:hover{
+					color:#dc9933;
+					width: 20vw !important;
+					background-position: center!important;
+					background: none !important;
+					background-color: #515B42 !important;
+				}
+
+
+
+				.navbar-toggler-icon{
+					color: white !important;
+
+
+				}
+
+				.navbar span {
+					color: white !important;
+					border: white !important;
+					background-color:#515B42 !important;
+				}
+
+
+					.navbar span:hover{
+					color: white !important;
+					border: white !important;
+					background-color:white !important;
+
+
+				
+
+				}
+
+
+
+
+
+}
+
+.aa:hover{
+	color:#dc9933;
+	background-color: inherit;
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: contain;
+	height: 300%;
+	width: 100%;
+	max-height: 180%;
+	
+
+}
+
+.aaa{
+	color: white;	
+	border: white!important;
+}
+.navbar button{
+	color: white;!important;
+}
+
+
+/* Barre de menu */
+
+
+
+
+
+
+
+

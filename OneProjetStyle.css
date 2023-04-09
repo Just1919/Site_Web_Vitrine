@@ -1,0 +1,516 @@
+.{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100vw;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+}
+.background-image{
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+ 
+	
+}
+
+.Logo{
+
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	max-width: 85px;
+}
+.Menu{
+	position:absolute;
+	left: 30vw;
+
+
+}
+
+a:hover {
+	color: red;
+	text-decoration: blink;
+  background-color:white;
+
+}
+
+.Image-Centre{
+   
+    position:absolute;
+	top: 10vh;
+	left: 33vw;
+	max-width: 350px; 
+	
+}
+.Image-centres{
+	 width: 120%;
+     height: 120%;
+
+} 
+.Bienvenu{
+	color: white;
+	font-family: Segoe UI;
+	font-style: normal;
+
+	font-size: 6vw;
+	text-shadow: -1px 0 #dc7633,0 1px #dc7633,1px 0 #dc7633;
+	position: absolute;
+	bottom: 60px;
+	left: 50px;
+
+
+}
+
+
+.pose{
+
+	position: absolute;
+	top:50vh;
+   left:70vw;
+
+}
+
+	a.bouton {
+   
+  color: white;
+  background-color:#515B42;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.Fond{
+	background-color:  #dc9933;
+
+}
+
+/*Projet******************/
+
+.bbody{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	overflow-x: hidden !important;
+}
+
+
+
+.background-p1{
+    height: 100vh;
+    background: url("Fp1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  	
+}
+
+
+.background-p2{
+	 height: 100vh;
+    background: url("Fp2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 	
+}
+.container-fluid{
+	overflow-x: hidden;
+}
+
+.vertical{
+		border-left: 2px solid white; 
+		height: 100vh; 
+		display: inline-block;
+		position:absolute;
+		left: 50vw;
+
+}
+.ttt{
+	position:absolute;
+	margin-top: 24vh;
+}
+.row .col-1 .img-fluid{
+	width: 60px;
+	margin-top: 3vh;
+}
+.row .col-8 .img-fluid, .row .col-8 p{
+	width: 50%;
+	float: left;
+}
+.zzz{
+	margin-top: 6vh;
+}
+.im1{
+	padding-left: 3vw;
+}
+.ImageCentreP1{
+	max-width: 100%;
+	position:absolute;	
+
+	 top: 24vh;
+	 left:50.3vw;
+             
+}
+
+.ImageCentreP11{
+	max-width: 100%;
+	position: absolute;
+	top: 24vh;
+	left:26.5vw;
+    
+
+}
+
+
+
+
+
+
+
+
+.Meuble{
+	color: white;
+	font-family: Segoe UI;
+	font-style: normal;
+
+	font-size: 4vw;
+	text-shadow: -1px 0 #dc7633,0 1px #dc7633,1px 0 #dc7633;
+
+}
+
+
+
+.btnn{
+
+	background-color:#515B42;
+	border-radius: 20px;
+	border: none;
+}
+.
+
+.btnn1{
+
+	background-color:white;
+	border-radius: 20px;
+	color: #b18134;
+	border: none;
+}
+
+.btnn:hover{
+	color:#515B42;
+	background-color: inherit;
+
+
+}
+
+/*** Hover carroussel***/
+
+.card a{
+	background-color:#515B42;
+	border-radius: 20px;
+	border: none;
+
+}
+
+.card:hover a{
+	color:#515B42;
+	border-radius: 20px;
+	border: none;
+	background-color: #f0f3f4;
+
+}
+
+
+
+
+.card h5{
+	color:#dc9933;
+
+}
+
+.card:hover h5{
+	 color:#515B42;
+
+}
+
+
+
+.card p{
+	color:black;
+
+}
+
+.card:hover p{
+	 color:#515B42;
+
+}
+
+
+
+/****  Barre de menu****/
+.navbar{
+	position:absolute;
+	background-image: url("Fc7.png");
+	width: 50vw !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	font-size: 8px;
+	left: 60vw;
+	
+}
+
+
+@media screen and (max-width: 600px){
+
+				.navbar{
+					position:fixed;
+					background: none !important;
+					background-color: white;
+					max-width: 40vw;
+					font-size: 8px;
+					left: 56.8vw !important;
+
+				}
+
+
+
+
+				.aa:hover{
+					color:#dc9933;
+					width: 20vw !important;
+					background-position: center!important;
+					background: none !important;
+					background-color: #515B42 !important;
+				}
+
+
+
+				.navbar-toggler-icon{
+					color: white !important;
+
+
+				}
+
+				.navbar span {
+					color: white !important;
+					border: white !important;
+					background-color:#515B42 !important;
+				}
+
+
+					.navbar span:hover{
+					color: white !important;
+					border: white !important;
+					background-color:white !important;
+
+
+				
+
+				}
+
+
+
+
+
+}
+
+.aa:hover{
+	color:#dc9933;
+	background-color: inherit;
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	background-position:top;
+	background-size: contain;
+	
+	
+
+}
+
+.aaa{
+	color: white;	
+	border: white!important;
+}
+.navbar button{
+	color: white;!important;
+}
+
+
+/* Barre de menu */
+
+
+
+
+
+
+
+
+
+
+.card{
+	display: block;
+	text-decoration: none;
+	border: none;
+	background: none;
+	width: 3rem;
+	left: 1vw;
+	
+}
+
+.owl-stage{
+	left: 8vh;
+	
+}
+
+
+
+.owl-prev{
+	position:relative;
+	bottom:54vh;
+	right: 45vw;
+	transform: rotate(-180deg);
+
+}
+
+
+
+.owl-next{
+	position:relative;
+	bottom:52vh;
+	left:43vw;
+}
+.owl-next,.owl-prev:hover{
+	background: none !important;
+}
+/******************/
+
+
+.i{
+	height: 50px;
+	width: 50px;
+}
+button:hover{
+	color:none;
+
+}
+
+.bbutton{
+  position:absolute;
+ top:80vh;
+ left: 47.6vw;
+ border: none;
+}
+
+
+
+
+
+
+
+
+/*********Reduction de l'écran***********/
+
+
+
+@media screen and (max-width: 600px) {
+
+					.bbutton{
+						  position:absolute;
+						 top:80vh;
+						 left: 43.3vw !important;
+						 border: none;
+						}
+
+    
+						    .ttt .p4{
+						    position: absolute;
+							width: 7vw !important;
+							height: 16vh !important;
+							top: -3vh;
+							left: 8vw;
+
+						}
+						.ttt .p5{
+							position: absolute;
+							width: 7vw !important;
+							height: 20vw !important;
+							top: -3vh !important;
+							
+						}
+
+
+						.ttt p{
+								font-size: 0.8rem !important;
+							}
+
+         
+                          .owl-prev{
+									position:relative;
+									bottom:54vh;
+									right: 36vw;
+									transform: rotate(-180deg);
+
+								}
+
+
+
+								.owl-next{
+									position:relative;
+									bottom:52vh;
+									left:23vw;
+								}
+
+								.background-p2 h1{
+									font-size: 2rem !important;
+								}
+
+								.background-p2 p{
+									font-size: 0.9rem !important;
+								}
+
+
+}
+
+
+.ttt p{
+	font-size: 3vh;
+}
+
+.ttt .p2{
+	position: relative0
+	left: 0.1vw !important;
+}
+
+.ttt .p3{
+	position: relative;
+	left: 3vw !important;
+}
+
+.ttt img{
+	
+}
+
+.ttt .p3{
+	width: 30vw;
+	height: 23vw;
+
+}
+.ttt .p4{
+	width: 30vw;
+	height: 23vw;
+	
+}
+
+
+
+
+
+
+  
+
